@@ -71,7 +71,7 @@ export default function ChooseUsSection() {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-4/12 mt-10 lg:mt-0 flex justify-center align-center lg:justify-start">
+          <div className="w-full lg:w-4/12 mt-10 lg:mt-0 flex justify-center items-center m-auto lg:justify-start">
   <div className="choose-img">
     <img
       src="https://img.freepik.com/free-photo/young-children-with-autism-playing-together_23-2151241914.jpg"
