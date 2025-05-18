@@ -71,18 +71,26 @@ export default function ChooseUsSection() {
               </div>
             </div>
           </div>
-
-          <div className="w-full lg:w-4/12 mt-10 lg:mt-0 ">
+          <div className="w-full lg:w-4/12 mt-10 lg:mt-0 flex justify-center align-center lg:justify-start">
+  <div className="choose-img">
+    <img
+      src="https://img.freepik.com/free-photo/young-children-with-autism-playing-together_23-2151241914.jpg"
+      alt="Students"
+      className="rounded-[20px] shadow-lg ml-0 lg:ml-6"
+    />
+  </div>
+</div>
+          {/* <div className="w-full lg:w-4/12 mt-10 lg:mt-0 ">
             <div className="choose-img">
               <img
                 src="https://img.freepik.com/free-photo/young-children-with-autism-playing-together_23-2151241914.jpg"
                 alt="Students"
                 className="rounded-[20px] shadow-lg ml-6"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
-    </div>
+  
   );
 }
