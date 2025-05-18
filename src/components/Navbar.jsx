@@ -82,7 +82,7 @@ export default function Navbar() {
             <ul className="flex gap-6 items-center">
               <li>
                 <Link href="/" className="text-gray-800 font-semibold hover:text-blue-600">
-                  Bipul
+                  Home
                 </Link>
               </li>
               <li>
