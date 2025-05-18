@@ -26,7 +26,7 @@ import Image from 'next/image'
 
 export default function Banner() {
   return (
-    <div className="relative w-full h-[250px] sm:h-[350px] md:h-[500px] lg:h-[650px] xl:h-[750px]">
+    <div className="relative w-full h-[250px] sm:h-[350px] sm:w-[350px] md:h-[500px] lg:h-[650px] xl:h-[750px]">
       <Image
         src="/banner1.jpg" // Place image in public/assets/img/slider/
         alt="Nalanda Learning"
